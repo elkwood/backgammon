@@ -1,0 +1,39 @@
+{
+  "name": "backgammon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elkwood/backgammon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elkwood/backgammon/issues"
+  },
+  "homepage": "https://github.com/elkwood/backgammon#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {
+    "board": "file:packages/board",
+    "orbit-controls-es6": "^2.0.0",
+    "react-spring": "^8.0.20",
+    "react-three-fiber": "^2.1.6",
+    "standard": "^12.0.1",
+    "stats-js": "^1.0.1",
+    "styled-components": "^4.2.1",
+    "three": "^0.105.1"
+  }
+}
